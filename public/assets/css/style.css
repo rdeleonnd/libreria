@@ -1,0 +1,87 @@
+/* Custom styles
+-------------------------------------------------- */
+
+a.buy-item {
+    padding: 0px;
+    margin-top: 2px;
+    background: url(../img/basket-icon.png) 3px 1px no-repeat; 
+    height: 64px;
+    width: 64px;
+    display: block
+}
+
+.rotate{
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+
+    overflow:hidden; 
+}  
+ 
+.rotate:hover  
+{
+    -webkit-transform:rotate(10deg);
+    -moz-transform:rotate(10deg);
+    -o-transform:rotate(10deg);
+}
+
+img.book-index {
+    width: 170px;
+    height: auto
+}
+
+/* Machacamos CSS de bootstrap */
+
+.chachi-table td {
+    vertical-align: middle !important
+}
+.chachi-table col.width-5 {
+    width: 5%
+}
+.chachi-table col.width-10 {
+    width: 10%
+}
+.chachi-table col.width-15 {
+    width: 15%
+}
+.chachi-table col.width-20 {
+    width: 20%
+}
+.chachi-table col.width-25 {
+    width: 25%
+}
+.chachi-table col.width-30 {
+    width: 30%
+}
+.chachi-table col.width-40 {
+    width: 40%
+}
+.chachi-table col.width-50 {
+    width: 50%
+}
+.chachi-table col.width-60 {
+    width: 60%
+}
+
+.navbar-fixed-top {
+    /* -moz-box-shadow: 0px 3px 3px #888;
+    -webkit-box-shadow: 0px 3px 3px #888;
+    box-shadow: 0px 3px 3px #888; */
+}
+
+div#wrap {
+    background: #fafafa;
+    /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#d6e9c6'); */
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#d6e9c6)); 
+    background: -moz-linear-gradient(top, #ffffff, #d6e9c6)
+}
+
+div#footer {
+    color: #848484
+}
